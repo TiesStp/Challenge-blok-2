@@ -1,0 +1,140 @@
+body{
+    background-color: #222222;
+}
+.menu{
+    font-size: large;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:black;
+    border-radius: 12px;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+*{
+    margin:0;
+    
+}
+
+.reclame{
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+a:hover{
+    background:rgb(0, 195, 255);
+    border-radius:10px;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li::after {
+    content: "|";
+    margin-left: 170px;
+    color: whitesmoke;
+}
+
+.mij{
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.projecten{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logo{
+    height: 82px;
+    width: 82px;
+}
+
+.roda{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.modules{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.screenshot{
+    height:400px;
+    width: 1250px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.wrd{
+    height:600px;
+    width: 1250px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.foto{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.github{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+
+#btn{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 70px;
+    border-width: 4px;
+    border-radius: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(0, 183, 255) ;
+    cursor: pointer;
+    
+}
+
+#btn:active{
+    font-size: 23px;
+}
+
+
